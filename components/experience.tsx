@@ -10,7 +10,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import { useInView } from 'react-intersection-observer';
 import { useActiveSectionContext } from '../context/active-section-context';
 import { experiencesData } from '../lib/data';
-import Image from 'next/image';
 
 export default function Experience() {
   const { ref, inView } = useInView({
