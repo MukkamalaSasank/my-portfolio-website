@@ -7,7 +7,7 @@ import { useActiveSectionContext } from '../context/active-section-context';
 
 export default function About() {
   const { ref, inView } = useInView({
-    threshold: 0.95,
+    threshold: 0.9,
   });
   const { setActiveSection } = useActiveSectionContext();
 
