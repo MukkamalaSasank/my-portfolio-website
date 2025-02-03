@@ -60,7 +60,7 @@ export default function Intro() {
           Sasank Mukkamala
         </h1>
         <p className="text-xl sm:text-2xl md:text-3xl font-bold mt-4">
-          And I&apos a{' '}
+          And I&apos; a{' '}
           <span className="relative">
             <span className="absolute top-0 left-0 w-full h-full blur-xl opacity-70" />
             <TypeAnimation
