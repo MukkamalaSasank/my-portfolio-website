@@ -13,6 +13,7 @@ export default function Card({
   imageUrl,
   date,
   source,
+  url,
 }: ProjectProps) {
   return (
     <motion.div
@@ -54,7 +55,10 @@ export default function Card({
           >
             Github
           </button>
-          <button className="hidden group-hover:block w-[calc(50%-0.25rem)] mt-[1rem] py-[0.5rem] bg-[#942dc4] text-white text-[0.875rem] font-bold rounded-[0.625rem] transition-all duration-800 ease-in-out">
+          <button
+            className="hidden group-hover:block w-[calc(50%-0.25rem)] mt-[1rem] py-[0.5rem] bg-[#942dc4] text-white text-[0.875rem] font-bold rounded-[0.625rem] transition-all duration-800 ease-in-out"
+            onClick={() => window.open(url)}
+          >
             Live Demo
           </button>
         </div>

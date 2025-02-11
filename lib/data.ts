@@ -91,6 +91,7 @@ export const projectsData = [
     imageUrl: NeuralArt,
     date: 'Dec 2024',
     source: 'https://github.com/MukkamalaSasank/NeuralArt_AI',
+    url: 'https://neural-art-ai.vercel.app/',
   },
   {
     title: 'Medical ChatBot (RAG)',
@@ -107,6 +108,7 @@ export const projectsData = [
     imageUrl: MedicalChatbot,
     date: 'Nov 2024',
     source: 'https://github.com/MukkamalaSasank/Medical-ChatBot',
+    url: '',
   },
   {
     title: 'Crypto Currency Prediction',
@@ -127,6 +129,7 @@ export const projectsData = [
     date: 'Mar 2024',
     source:
       'https://github.com/MukkamalaSasank/Cryptocurrency_Price_Prediction_with_LSTM',
+    url: '',
   },
   {
     title: 'Emotion Detection App',
@@ -136,6 +139,7 @@ export const projectsData = [
     imageUrl: Emotion_Detection,
     date: 'Jan 2024',
     source: 'https://github.com/MukkamalaSasank/Facial-Emotion-Recognition',
+    url: '',
   },
   {
     title: 'Game Listing App',
@@ -145,6 +149,7 @@ export const projectsData = [
     imageUrl: Game_Listing_App,
     date: 'Dec 2023',
     source: 'https://github.com/MukkamalaSasank/game-listing-app',
+    url: '',
   },
   {
     title: 'Mutiple PDF ChatBot (RAG)',
@@ -164,6 +169,7 @@ export const projectsData = [
     imageUrl: MedicalChatbot,
     date: 'Oct 2023',
     source: 'https://github.com/MukkamalaSasank/Mutliple-Pdf-ChatBot',
+    url: '',
   },
   {
     title: 'Online Chess Platform',
@@ -173,6 +179,7 @@ export const projectsData = [
     imageUrl: Online_Chess_Platform,
     date: 'Aug 2023',
     source: 'https://github.com/MukkamalaSasank/Online_Chess_Platform',
+    url: '',
   },
   {
     title: 'Food Delivery App',
@@ -182,6 +189,7 @@ export const projectsData = [
     imageUrl: Food_Delivery_App,
     date: 'May 2021 ',
     source: 'https://github.com/MukkamalaSasank/Food_Delivery_APP',
+    url: '',
   },
 ] as const;
 
