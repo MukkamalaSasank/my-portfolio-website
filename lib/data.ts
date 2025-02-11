@@ -149,7 +149,7 @@ export const projectsData = [
     imageUrl: Game_Listing_App,
     date: 'Dec 2023',
     source: 'https://github.com/MukkamalaSasank/game-listing-app',
-    url: '',
+    url: 'https://game-listing-webapp.vercel.app/',
   },
   {
     title: 'Mutiple PDF ChatBot (RAG)',
