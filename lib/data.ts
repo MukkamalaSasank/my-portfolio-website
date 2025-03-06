@@ -108,7 +108,7 @@ export const projectsData = [
     imageUrl: MedicalChatbot,
     date: 'Nov 2024',
     source: 'https://github.com/MukkamalaSasank/Medical-ChatBot',
-    url: 'ai-medical-chatbot.streamlit.app/',
+    url: 'ai-medical-chatbot.streamlit.app',
   },
   {
     title: 'Crypto Currency Prediction',
