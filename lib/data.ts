@@ -108,7 +108,7 @@ export const projectsData = [
     imageUrl: MedicalChatbot,
     date: 'Nov 2024',
     source: 'https://github.com/MukkamalaSasank/Medical-ChatBot',
-    url: '',
+    url: 'ai-medical-chatbot.streamlit.app/',
   },
   {
     title: 'Crypto Currency Prediction',
@@ -129,7 +129,7 @@ export const projectsData = [
     date: 'Mar 2024',
     source:
       'https://github.com/MukkamalaSasank/Cryptocurrency_Price_Prediction_with_LSTM',
-    url: '',
+    url: 'https://cryptocurrency-price-prediction-with-lstm.onrender.com',
   },
   {
     title: 'Emotion Detection App',
@@ -169,7 +169,7 @@ export const projectsData = [
     imageUrl: MedicalChatbot,
     date: 'Oct 2023',
     source: 'https://github.com/MukkamalaSasank/Mutliple-Pdf-ChatBot',
-    url: '',
+    url: 'https://mutliple-pdf-chatbot.streamlit.app/',
   },
   {
     title: 'Online Chess Platform',
