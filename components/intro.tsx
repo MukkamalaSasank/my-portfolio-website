@@ -96,7 +96,7 @@ export default function Intro() {
         >
           <a
             className="bg-gradient-to-r from-[#dc00ff] to-[#8f00ff] text-white text-center font-bold px-6 py-2 sm:px-7 sm:py-3 rounded-full text-[1.5rem] sm:text-[1rem] outline-none focus:scale-110 hover:scale-110 transition-all"
-            href="/Sasank_Mukkamala_Machine_Learning_Engineer.pdf"
+            href="/Sasank_Mukkamala_Software_Developer.pdf"
             download
           >
             Check Resume

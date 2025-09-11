@@ -36,21 +36,31 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduate Student Assistant (Assistant Lab Consultant)',
+    title: 'Software Developer',
+    location: 'Los Angeles, CA',
+    company: 'Community Dreams Foundation',
+    description:
+      'Develop, test, and maintain scalable software applications using Python, Java, and C# to fulfill client and organizational requirements. Collaborate with cross-functional teams to deliver user-friendly solutions that improve application responsiveness and scalability. Conduct code reviews and debugging to enhance software reliability and elevate user experience.',
+    icon: 'https://i.postimg.cc/BQryp4hY/download.jpg',
+    date: 'Aug 2025 - Present',
+  },
+
+  {
+    title: 'Graduate Student Assistant',
     location: 'Los Angeles, CA',
     company: 'California State University, Los Angeles',
     description:
-      'As a Graduate Student Assistant at Cal State LA, I resolve 100+ software, hardware, and network issues monthly, managing 50+ ServiceNow tickets. I provide technical support to over 200 users and ensure a 90% resolution rate, optimizing ITS service delivery.',
+      'Provide technical support resolving 100+ software, hardware, and network issues monthly. Manage 50+ ServiceNow tickets, supporting 200+ users with a 90% resolution rate to optimize ITS service delivery and lab operations.',
     icon: 'https://www.calstatela.edu/sites/default/files/badge.png',
-    date: 'Oct 2023 - Present',
+    date: 'Oct 2023 - May 2025',
   },
   {
     title: 'Machine Learning Engineer Intern',
     location: 'Hyderabad, India',
     company: 'Phoenix Global',
     description:
-      'During my 4-month internship at Phoenix Global, I developed and deployed a high-performance Twitter sentiment analysis system in real-time. I enhanced sentiment classification accuracy by 25% through optimized data workflows and applied NLP techniques using Scikit-Learn.',
-    icon: 'https://media.licdn.com/dms/image/v2/C4D0BAQHP8iNh6oTRmg/company-logo_200_200/company-logo_200_200/0/1638881400366/phnxglobal_logo?e=2147483647&v=beta&t=kPrpg5iBu3I5rz7YDuOXVgH4aIu7Jiz54Up0I87lsIw',
+      'Developed and deployed a real-time Twitter sentiment analysis system, improving sentiment classification accuracy by 25% through optimized data workflows and advanced NLP using Scikit-Learn.',
+    icon: 'https://i.postimg.cc/FRhXZNK5/download.png',
     date: 'Apr 2022 - Jul 2022',
   },
   {
@@ -58,7 +68,7 @@ export const experiencesData = [
     location: 'Hyderabad, India',
     company: 'Defence Research and Development Organisation (DRDO)',
     description:
-      'At DRDO, I contributed to the development of middleware software, collaborating with a team of 3 engineers to optimize tools for the defense sector. My contributions enhanced software performance and scalability, ensuring mission-critical solutions.',
+      'Contributed to middleware software development, collaborating with a team of engineers to optimize tools for defense applications, enhancing performance and scalability of mission-critical systems.',
     icon: 'https://seeklogo.com/images/D/drdo-logo-26087DC7CA-seeklogo.com.png',
     date: 'May 2021 - Aug 2021',
   },
@@ -67,8 +77,8 @@ export const experiencesData = [
     location: 'Hyderabad, India',
     company: 'SmartKnower',
     description:
-      'As a Mobile Application Developer Intern, I engineered a cross-platform mobile food delivery app using Dart and Flutter, focusing on user-friendly design, scalability, and high efficiency. I mastered Dart programming and the Flutter framework, ensuring a seamless and intuitive customer experience.',
-    icon: 'https://media.licdn.com/dms/image/v2/C560BAQEurnSUo3oWFw/company-logo_200_200/company-logo_200_200/0/1630603999936/smartknower_logo?e=2147483647&v=beta&t=fY0x5hraCuengeRA4Wq2_Qoynsz04qreKHFo17TYoRs', // Replace with the actual logo URL
+      'Engineered a cross-platform mobile food delivery app with Dart and Flutter, emphasizing user-friendly design, scalability, and performance. Gained proficiency in Dart and Flutter to deliver an intuitive customer experience.',
+    icon: 'https://i.postimg.cc/mZXWYxfJ/smartknower-logo.jpg',
     date: 'Feb 2021 - May 2021',
   },
 ] as const;
