@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -13,7 +13,7 @@ import { experiencesData } from '../lib/data';
 
 export default function Experience() {
   const { ref, inView } = useInView({
-    threshold: 0.5,
+    threshold: 0.15,
   });
   const { setActiveSection } = useActiveSectionContext();
 
@@ -22,6 +22,25 @@ export default function Experience() {
       setActiveSection('Experience');
     }
   }, [inView, setActiveSection]);
+
+  // Hook to detect if screen width is below 640px (single column)
+  function useIsSingleColumn() {
+    const [isSingleColumn, setIsSingleColumn] = useState(false);
+
+    useEffect(() => {
+      function check() {
+        setIsSingleColumn(window.innerWidth < 1280); // sm breakpoint
+      }
+
+      check();
+      window.addEventListener('resize', check);
+      return () => window.removeEventListener('resize', check);
+    }, []);
+
+    return isSingleColumn;
+  }
+
+  const isSingleColumn = useIsSingleColumn();
 
   return (
     <section
@@ -44,8 +63,8 @@ export default function Experience() {
                   textAlign: 'left',
                   padding: '1.3rem 2rem',
                 }}
-                date={experience.date}
-                dateClassName="bold"
+                date={isSingleColumn ? undefined : experience.date} // Hide date on single column
+                dateClassName="font-bold"
                 icon={
                   <div className="flex justify-center items-center">
                     <img
@@ -72,9 +91,11 @@ export default function Experience() {
                     <span className="text-gray-500 text-[0.75rem]">
                       {experience.location}
                     </span>
-                    <span className="text-gray-500 text-[0.75rem]">
-                      {experience.date}
-                    </span>
+                    {!isSingleColumn && (
+                      <span className="text-gray-500 text-[0.75rem]">
+                        {experience.date}
+                      </span>
+                    )}
                   </div>
                 </div>
                 <span className="text-slate-400 text-[0.8rem] font-bold font-roboto text-wrap">

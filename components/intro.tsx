@@ -90,7 +90,7 @@ export default function Intro() {
           machine learning, and seamless full-stack development.
         </motion.h1>
         <motion.div
-          className="flex flex-col flex-wrap sm:flex-row gap-4 justify-center sm:justify-start"
+          className="flex flex-wrap sm:flex-row gap-4 justify-center sm:justify-start"
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
         >

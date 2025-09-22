@@ -36,6 +36,15 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: 'Software Engineer',
+    location: 'Los Angeles, CA',
+    company: 'Narb',
+    description:
+      'Design, develop, test, and optimize software solutions across hardware, automation, and infrastructure projects. Collaborate with cross-functional teams to align development with business objectives and enhance system performance. Contribute to multi-model query tool and AI SDK improvements, focusing on responsiveness, scalability, and maintainability. Maintain high code quality through thorough reviews and debugging practices.',
+    icon: 'https://i.postimg.cc/1zvvNhz1/images.jpg',
+    date: 'Sep 2025 - Present',
+  },
+  {
     title: 'Software Developer',
     location: 'Los Angeles, CA',
     company: 'Community Dreams Foundation',

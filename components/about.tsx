@@ -30,18 +30,19 @@ export default function About() {
         About me
       </h2>
       <p className="mb-3 font-medium text-slate-400">
-        As a graduate student of Computer Science from CSULA with 2+ years of
-        experience, I combine rigorous academic training with a passion for
-        solving complex, real-world challenges through technology. My work is
-        rooted in bridging theoretical concepts with practical applications,
-        driven by a curiosity for how intelligent systems can innovate
-        industries like healthcare, finance, and defense. With a foundation in
-        both machine learning and full-stack development, I thrive in
-        collaborative environments where creativity meets precision, delivering
-        solutions that prioritize scalability, user-centric design, and ethical
-        considerations. Committed to lifelong learning, I aim to contribute to
-        teams shaping the future of AI and data-driven decision-making while
-        adapting to the evolving demands of the tech landscape.
+        Software Engineer with 3 years of experience delivering scalable
+        solutions in Python, Java, JavaScript, and cloud platforms, combining
+        rigorous academic training from California State University, Los Angeles
+        (M.S. in Computer Science, GPA 3.94) with hands-on contributions to AI,
+        distributed systems, and web technologies. Skilled at bridging theory
+        and real-world impact, with a track record of enhancing performance and
+        efficiency across fast-paced environments in sectors like healthcare,
+        research, and non-profits. Adept at collaborating with diverse teams and
+        applying machine learning, full-stack development, and automation to
+        solve complex technical challenges while prioritizing user-centric
+        design and ethical standards. Committed to continuous learning and
+        innovation, eager to support teams shaping the future of intelligent
+        systems and data-driven decision-making.
       </p>
       <p></p>
     </motion.section>
