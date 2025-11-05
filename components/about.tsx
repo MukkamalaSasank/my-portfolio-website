@@ -30,19 +30,23 @@ export default function About() {
         About me
       </h2>
       <p className="mb-3 font-medium text-slate-400">
-        Software Engineer with 3 years of experience delivering scalable
-        solutions in Python, Java, JavaScript, and cloud platforms, combining
-        rigorous academic training from California State University, Los Angeles
-        (M.S. in Computer Science, GPA 3.94) with hands-on contributions to AI,
-        distributed systems, and web technologies. Skilled at bridging theory
-        and real-world impact, with a track record of enhancing performance and
-        efficiency across fast-paced environments in sectors like healthcare,
-        research, and non-profits. Adept at collaborating with diverse teams and
-        applying machine learning, full-stack development, and automation to
-        solve complex technical challenges while prioritizing user-centric
-        design and ethical standards. Committed to continuous learning and
-        innovation, eager to support teams shaping the future of intelligent
-        systems and data-driven decision-making.
+        Software Engineer specializing in building scalable, cloud-native
+        applications using Python, Java, and TypeScript. I bring over three
+        years of experience developing and optimizing distributed systems,
+        RESTful APIs, and CI/CD pipelines across academia, startups, and
+        research organizations. My background includes delivering measurable
+        performance gains—improving system efficiency by up to 30% and reducing
+        deployment errors by 60%—through automation, microservices architecture,
+        and data-driven engineering. With an M.S. in Computer Science (GPA 3.94)
+        from California State University, Los Angeles, I combine strong
+        theoretical foundations with practical expertise in modern web
+        technologies, AI/ML integration, and cloud platforms. I thrive in
+        collaborative, agile environments where technical rigor meets
+        creativity—whether optimizing backend performance, enhancing user
+        experience, or developing intelligent applications that bridge data and
+        decision-making. Driven by curiosity and continuous improvement, I’m
+        passionate about designing reliable, impactful software solutions that
+        advance the future of AI, automation, and scalable systems.
       </p>
       <p></p>
     </motion.section>

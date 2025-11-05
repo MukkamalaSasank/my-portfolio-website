@@ -40,7 +40,7 @@ export const experiencesData = [
     location: 'Los Angeles, CA',
     company: 'Narb',
     description:
-      'Design, develop, test, and optimize software solutions across hardware, automation, and infrastructure projects. Collaborate with cross-functional teams to align development with business objectives and enhance system performance. Contribute to multi-model query tool and AI SDK improvements, focusing on responsiveness, scalability, and maintainability. Maintain high code quality through thorough reviews and debugging practices.',
+      'At Narb, I contributed to enhancing a multi-model query tool and AI SDK, resulting in a 30% boost in system responsiveness and overall performance. Through in-depth benchmark testing and targeted optimization, I reduced AI inference latency by 25%. Working collaboratively with cross-functional teams, I gathered technical requirements, validated proposed solutions, and accelerated project delivery timelines. My work primarily focused on developing and testing high-impact projects using Python and JavaScript, aligning closely with the company’s strategic initiatives in AI and data systems.',
     icon: 'https://i.postimg.cc/1zvvNhz1/images.jpg',
     date: 'Sep 2025 - Present',
   },
@@ -49,35 +49,35 @@ export const experiencesData = [
     location: 'Los Angeles, CA',
     company: 'Community Dreams Foundation',
     description:
-      'Develop, test, and maintain scalable software applications using Python, Java, and C# to fulfill client and organizational requirements. Collaborate with cross-functional teams to deliver user-friendly solutions that improve application responsiveness and scalability. Conduct code reviews and debugging to enhance software reliability and elevate user experience.',
+      'As a Software Engineer at Community Dreams Foundation, I designed, built, and tested scalable software applications to meet client and organizational needs. I played a key role in optimizing system performance by improving database scalability and responsiveness across MongoDB, MySQL, and PostgreSQL. Collaborating with product and design teams, I translated user feedback into actionable technical specifications, ensuring that new features enhanced both usability and efficiency. Through rigorous code reviews and debugging, I elevated the overall reliability and quality of deployed software solutions.',
     icon: 'https://i.postimg.cc/BQryp4hY/download.jpg',
     date: 'Aug 2025 - Present',
   },
 
   {
-    title: 'Graduate Student Assistant',
+    title: 'Software Engineer',
     location: 'Los Angeles, CA',
     company: 'California State University, Los Angeles',
     description:
-      'Provide technical support resolving 100+ software, hardware, and network issues monthly. Manage 50+ ServiceNow tickets, supporting 200+ users with a 90% resolution rate to optimize ITS service delivery and lab operations.',
+      'At California State University, Los Angeles, I developed and optimized IT workflows and web applications using JavaScript and ServiceNow, reducing ticket resolution times by 40%. I implemented CI/CD pipelines and automated testing frameworks, which decreased manual deployment errors by 60% and improved operational reliability. My work also included enforcing API-level security, monitoring system health, and maintaining 99.9% uptime across university systems. Collaborating with academic departments, I built and maintained tools that streamlined digital services for over 10,000 students and faculty.',
     icon: 'https://www.calstatela.edu/sites/default/files/badge.png',
-    date: 'Oct 2023 - May 2025',
+    date: 'Aug 2023 - May 2025',
   },
   {
-    title: 'Machine Learning Engineer Intern',
+    title: 'Machine Learning Engineer',
     location: 'Hyderabad, India',
     company: 'Phoenix Global',
     description:
-      'Developed and deployed a real-time Twitter sentiment analysis system, improving sentiment classification accuracy by 25% through optimized data workflows and advanced NLP using Scikit-Learn.',
+      'As a Machine Learning Engineer at Phoenix Global, I focused on developing and fine-tuning NLP models to enhance algorithmic accuracy by 25%. I optimized real-time infrastructure to increase data processing efficiency by 30%, ensuring low-latency performance for production environments. By integrating machine learning models into Python-based backend systems, I maintained 99.9% uptime and reliable deployment pipelines. Leveraging tools such as Scikit-learn, TensorFlow, and GitHub Actions, I contributed to the design and deployment of scalable, end-to-end ML solutions.',
     icon: 'https://i.postimg.cc/FRhXZNK5/download.png',
-    date: 'Apr 2022 - Jul 2022',
+    date: 'Jan 2023 - Jun 2023',
   },
   {
     title: 'Junior Software Engineer',
     location: 'Hyderabad, India',
     company: 'Defence Research and Development Organisation (DRDO)',
     description:
-      'Contributed to middleware software development, collaborating with a team of engineers to optimize tools for defense applications, enhancing performance and scalability of mission-critical systems.',
+      'During my internship at DRDO, I developed a Python-based backend middleware that reduced large-scale data conversion time by 60%, supporting critical scientific research workflows. I designed and implemented a full-stack GUI application using Tkinter, ensuring seamless integration between the front-end interface and backend processing. My responsibilities also included executing rigorous validation and testing protocols, achieving 100% accuracy in processing datasets exceeding one million records. This experience strengthened my foundations in data handling, system reliability, and performance optimization.',
     icon: 'https://seeklogo.com/images/D/drdo-logo-26087DC7CA-seeklogo.com.png',
     date: 'May 2021 - Aug 2021',
   },

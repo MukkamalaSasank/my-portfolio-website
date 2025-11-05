@@ -65,13 +65,13 @@ export default function Intro() {
             <span className="absolute top-0 left-0 w-full h-full blur-xl opacity-70" />
             <TypeAnimation
               sequence={[
-                'Full Stack Developer',
+                'Full Stack Engineer',
                 2000,
                 'Machine Learning Engineer',
                 2000,
                 'Artificial Intelligence Engineer',
                 2000,
-                'Software Developer',
+                'Software Engineer',
                 2000,
               ]}
               wrapper="span"
@@ -96,7 +96,7 @@ export default function Intro() {
         >
           <a
             className="bg-gradient-to-r from-[#dc00ff] to-[#8f00ff] text-white text-center font-bold px-6 py-2 sm:px-7 sm:py-3 rounded-full text-[1.5rem] sm:text-[1rem] outline-none focus:scale-110 hover:scale-110 transition-all"
-            href="/Sasank_Mukkamala_Software_Developer.pdf"
+            href="/Sasank_Mukkamala_Resume_Software_Engineer.pdf"
             download
           >
             Check Resume
